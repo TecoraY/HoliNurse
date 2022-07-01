@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://holinurse:holinurse1234@holin.3dlue.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
