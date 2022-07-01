@@ -28,6 +28,9 @@ const DB = mongoose
     console.log(error.message);
   });
 
+//test a get route.
+app.get("/", (request, response) => response.send("API up and Running"));
+
 //Listen to port
 app.listen(port, () => {
   console.log(`Server is up and running on port ${port}`);
